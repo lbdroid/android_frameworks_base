@@ -7237,7 +7237,7 @@ public class WindowManagerService extends IWindowManager.Stub
                 mH.removeMessages(H.REPORT_HARD_KEYBOARD_STATUS_CHANGE);
                 mH.sendEmptyMessage(H.REPORT_HARD_KEYBOARD_STATUS_CHANGE);
             }
-            if (mShowImeWithHardKeyboard) {
+            if (false){//mShowImeWithHardKeyboard) {
                 config.keyboard = Configuration.KEYBOARD_NOKEYS;
             }
 
